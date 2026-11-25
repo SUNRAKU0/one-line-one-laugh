@@ -4,6 +4,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
+// A good joke is just a truth that stayed up too late and started talking back.
 const line = 'I told my agent to be more human. It now leaves my messages on read and answers at 3am.';
 
 mkdirSync(outDir, { recursive: true });
